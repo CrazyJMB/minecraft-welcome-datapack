@@ -9,4 +9,4 @@
 function welcome:config/create_scoreboard
 
 # Main loop each second
-function welcome:functions/loop
+function welcome:loop

@@ -12,5 +12,5 @@ execute as @a[tag=!welcomemsg] run title @s subtitle [{"text":"Please read the r
 # Welcome message that will be displayed to new players on the chat
 execute as @a[tag=!welcomemsg] run tellraw @s [{"text":"Enjoy your stay!","color":"aqua"}]
 
-# Set the "new" tag to players who have just joined the server
+# Set the "welcomemsg" tag to players who have just joined the server
 execute as @a[tag=!welcomemsg] run tag @s add welcomemsg

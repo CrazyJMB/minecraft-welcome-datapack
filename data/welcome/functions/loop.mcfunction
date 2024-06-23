@@ -6,7 +6,7 @@
 ##
 
 # Loop
-schedule function welcome:loop 1s
+schedule function welcome:loop 1s replace
 
 # Welcome message
 function welcome:message
